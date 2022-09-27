@@ -14,7 +14,7 @@ import org.springframework.security.web.SecurityFilterChain;
 @RequiredArgsConstructor
 public class SecurityConfig {
 
-    private PrincipalOauth2UserService principalOauth2UserService;
+    private final PrincipalOauth2UserService principalOauth2UserService;
 
     @Bean
     public BCryptPasswordEncoder encodePwd() {
