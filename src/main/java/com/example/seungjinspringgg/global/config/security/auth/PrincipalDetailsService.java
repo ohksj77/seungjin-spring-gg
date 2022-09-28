@@ -1,6 +1,6 @@
 package com.example.seungjinspringgg.global.config.security.auth;
 
-import com.example.seungjinspringgg.model.User;
+import com.example.seungjinspringgg.entity.User;
 import com.example.seungjinspringgg.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;

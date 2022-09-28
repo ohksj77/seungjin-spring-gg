@@ -1,4 +1,4 @@
-package com.example.seungjinspringgg.model;
+package com.example.seungjinspringgg.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

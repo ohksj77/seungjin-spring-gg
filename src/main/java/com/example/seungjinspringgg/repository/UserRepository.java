@@ -1,6 +1,6 @@
 package com.example.seungjinspringgg.repository;
 
-import com.example.seungjinspringgg.model.User;
+import com.example.seungjinspringgg.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

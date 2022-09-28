@@ -5,7 +5,7 @@ import com.example.seungjinspringgg.global.config.security.oauth.provider.FaceBo
 import com.example.seungjinspringgg.global.config.security.oauth.provider.GoogleUserInfo;
 import com.example.seungjinspringgg.global.config.security.oauth.provider.NaverUserInfo;
 import com.example.seungjinspringgg.global.config.security.oauth.provider.OAuth2UserInfo;
-import com.example.seungjinspringgg.model.User;
+import com.example.seungjinspringgg.entity.User;
 import com.example.seungjinspringgg.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.oauth2.client.userinfo.DefaultOAuth2UserService;
@@ -17,7 +17,7 @@ import org.springframework.stereotype.Service;
 import java.util.Map;
 import java.util.Optional;
 
-import static com.example.seungjinspringgg.model.Role.ROLE_USER;
+import static com.example.seungjinspringgg.entity.Role.ROLE_USER;
 
 @Service
 @RequiredArgsConstructor

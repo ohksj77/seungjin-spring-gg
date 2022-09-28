@@ -1,7 +1,7 @@
 package com.example.seungjinspringgg.global.config.security.auth;
 
 
-import com.example.seungjinspringgg.model.User;
+import com.example.seungjinspringgg.entity.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.oauth2.core.user.OAuth2User;

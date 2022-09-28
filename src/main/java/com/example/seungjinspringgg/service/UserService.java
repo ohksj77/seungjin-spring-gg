@@ -2,7 +2,7 @@ package com.example.seungjinspringgg.service;
 
 
 import com.example.seungjinspringgg.global.config.security.auth.PrincipalDetails;
-import com.example.seungjinspringgg.model.User;
+import com.example.seungjinspringgg.entity.User;
 
 public interface UserService {
 

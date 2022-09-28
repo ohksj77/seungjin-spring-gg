@@ -1,7 +1,7 @@
 package com.example.seungjinspringgg.service.impl;
 
 import com.example.seungjinspringgg.global.config.security.auth.PrincipalDetails;
-import com.example.seungjinspringgg.model.User;
+import com.example.seungjinspringgg.entity.User;
 import com.example.seungjinspringgg.repository.UserRepository;
 import com.example.seungjinspringgg.service.UserService;
 import lombok.RequiredArgsConstructor;
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.Iterator;
 
-import static com.example.seungjinspringgg.model.Role.ROLE_USER;
+import static com.example.seungjinspringgg.entity.Role.ROLE_USER;
 
 
 @Service
